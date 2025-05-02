@@ -20,7 +20,7 @@ jobs:
           java-version: 8
 
       - name: Set up Gradle
-        uses: gradle/gradle-build-action@v5
+        uses: gradle/gradle-build-action@v4
 
       - name: Build with Gradle
         run: gradle assembleDebug --stacktrace
